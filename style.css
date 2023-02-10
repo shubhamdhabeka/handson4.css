@@ -1,0 +1,124 @@
+body{
+    margin:0%;
+    margin-top:-10px;
+}
+.top{
+    text-decoration:underline;
+    text-align: center;
+    background-image: linear-gradient(to right, red, green 30% , yellow );
+    width:100%;
+    text-decoration-thickness:2px;
+}
+.ul{
+    background-color: rgb(126, 211, 245);
+    border:3px solid red;
+    border-radius: 10px;
+    margin:0px 300px 0px 300px;
+}
+ul{
+    margin:0px;
+    padding-left:350px;
+}
+.lorembox{
+    border:1px solid red;
+    border-radius: 20px;
+    display:flex;
+    height:120px;
+    flex-wrap: wrap;
+    margin:0px;
+    justify-content: space-evenly;
+    background-color: rgba(0, 255, 255, 0.937);
+}
+.box{
+    border:2px solid rgb(1, 157, 1);
+    border-radius:5px;
+    width:360px;
+    height:55px;
+    background-color: aquamarine;
+    padding:0px 5px 0px 5px;
+    text-align: center;
+}
+.liner{
+    background-image:linear-gradient(to right, red, rgb(250, 166, 10), red); 
+    height:30px; 
+    text-align:center;
+    text-decoration:underline red;
+    text-decoration-thickness:2px;  
+}
+.IITbox{
+    border:3px solid green;
+    background-image: radial-gradient(rgb(68, 187, 246) 50%, rgb(16, 241, 16));
+    height:250px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.boxs{
+    border:2px solid brown;
+    height:100px;
+    width:190px;
+    color:brown;
+    text-decoration: underline;
+    background-color: khaki;
+    border-radius: 10px;
+    text-align:center;
+    line-height: 30px;
+}
+h4{
+    margin:0px;
+}
+.grid{
+    border:1px solid gray;
+    display:grid;
+    color:white;
+    gap:10px;
+    margin-bottom: 20px;
+    grid-template-columns:auto auto auto auto auto auto auto;
+}
+.box1{
+    background-color:rgba(255, 0, 0, 0.364);
+    grid-column-end: span 7;
+    height:40px;
+    font-size: 22px;
+    text-align: center;
+}
+.box2{
+    background-color:rgb(13, 216, 223);
+    grid-column-end: span 2;
+    text-align:center;
+    font-size: 25px;
+    height:80px;
+}
+.box3{font-size: 25px;
+    background-color:rgb(25, 92, 226);
+    grid-column-end: span 2;
+    font-size: 25px;
+    height:80px;
+}
+.box4{
+    background-color:rgb(5, 249, 111);
+    grid-column-end: span 2;
+    font-size: 25px;
+    height:80px;
+}
+.box5{
+    background-color:rgb(18, 17, 19);
+    grid-row-end:span 2;
+}
+.box6{
+    background-color:rgb(236, 142, 20);
+    grid-column-end: span 6;
+    font-size: 20px;
+    height:120px;
+}
+.box7{
+    background-color:rgb(183, 223, 239);
+    grid-column-end: span 7;
+    color:blueviolet;
+    text-align: center;
+    font-size: 20px;
+}
+hr{
+    margin:0px;
+}
